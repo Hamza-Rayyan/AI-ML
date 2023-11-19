@@ -1,1 +1,21 @@
+^Loan Prediction:
+> Analysing the data_set of a bank of about 614 records and futher predicting the pattern of customer behavior.
+> Taking insights using various pre-processing stages and data visualization.
+> Data_cleaning so as to make data ready to be trained.
+> As the last stages training and testing data_sets.
+> We apply the splitted data_set to a suitable ML-Algorithm, In this case we will be using LogisticRegression.
+> Lastly measure the accuracy of prediction.
 
+^Pre-requisites:
+>Jupytor_Notebook(preferable).
+>Importing essential libraries.
+
+^Roadmap:
+>Importing libraries.
+>Understanding data.
+>Pre-processing(EDA).
+>Data-visualization.
+>Data-cleaning.
+>Feature-extraction.
+>Splitting train & test data.
+>Applying to the algorithm.

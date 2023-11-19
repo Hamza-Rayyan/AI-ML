@@ -9,9 +9,11 @@
 ^Pre-requisites:
 >Jupytor_Notebook(preferable).
 >Importing essential libraries.
+>Data_set.
 
 ^Roadmap:
 >Importing libraries.
+>Importing Data.
 >Understanding data.
 >Pre-processing(EDA).
 >Data-visualization.

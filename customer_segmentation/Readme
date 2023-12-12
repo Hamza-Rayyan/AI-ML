@@ -1,1 +1,68 @@
+Customer Segmentation.
 
+>>> Objective: To segment the customer into the particular segment.
+>>>Importing the respective libraries.
+	-Numpy,pandas,matplotlib,seaborn.
+	-From sklearn package
+		- train_test_split,LogisticRegression,accuracy_score.
+>>> Importing Row data_set.
+>>> Data Visualization level 1.
+- Analys the data_set by viewing data "shape()","head()" and columns list or "feilds".
+
+-we treat our data as df.
+-Understanding our output data_set.
+-df['Segmentation'].Value_Counts()
+-df.describe(): this gives the data mean,median,avg.
+-As we found data_output is segmented in four segment
+D = 2268
+A = 1972
+C = 1970
+B = 1858
+-By looking at the output we can consider the data is balanced.
+// if the data_sets are imbalanced than the prediction would be wrong.
+- we may delete the useless parameters using del.
+-In our case we have "var","Id" as useless.
+-It would be helpful for the alg to provide less but useful.
+-view the empty data df.isnull().sum()
+-drop the data set which are empty.
+// Not every time we drop the empty data, could apply some analysis process.
+-Now we have left with clean data.
+-Pre-processing stage level-1 done.
+>>>Data visualization level 2.
+- Now time to have some graphical viewpoint understand our data against different parameters.
+- Converting the catogerical data into numerical values as it is more suitable to the ML-alg.
+-pre-processing stage, Data visualization level-2 done.
+>>>Splitting the data_set into train and testing data.
+- we created four parts of our data 80 percent into train which have two parts.
+	train_x as input
+	train_y as output
+- we have set 20 percent of data is testing
+	test_x as input
+	test_y as output
+- Also we take 10 output data as a final_test to test against our alg accuracy.
+- we import different alg and store it into reference variable.
+- In our case we have LogisticRegression,svm,KKN.
+- By testing our predicted final_test and the alg we can see the accuracy of the models.
+>>> Our final test random outputs.
+- Machine Learning Model Build 
+5666    3
+2934    1
+3203    2
+3646    4
+5404    1
+1214    2
+3525    1
+1228    1
+1596    1
+7956    4
+
+-LR Alg Accuracy 1.0 
+Output Prediction =  [3 1 2 4 1 2 1 1 1 4] 
+
+-SVM Alg Accuracy 70 Percent
+Output Prediction SVM =  [2 1 1 4 1 1 1 1 1 4] 
+
+-KNN Alg Accuracy 78 Percent
+Output Prediction KNN =  [3 1 1 4 1 2 1 1 2 4] 
+
+Project End.

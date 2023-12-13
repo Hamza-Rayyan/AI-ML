@@ -1,1 +1,24 @@
+Water Mark
+
+>>> Objective: To add a WaterMarks to images.
+>>> Importing libraries.
+  -cv2 for image processing.
+  -numpy for numeric function
+  -(glob,os) for folder and files accessing.
+
+>>> Importing Logo image.
+>>> Analys the shape of the images in height and width.
+>>> Add the path to reference variable of the image folder Ex:("images/*.*")
+// "*.*" this can be used as an extension for accepting all tyoes of files.
+>>> Now we just run a for loop inside the folder of images, it select each image one by one and calculates the image height/width and add the logo at 
+the priscribed positions.
+
+>>> Now we calculate the center of the image by dividing the pixels of height and width into half also the logo image.
+>>> We have take all four parameters and stored it in a variable called roi.
+>>> With roi and some other parameters such logo,size,colour 
+    - cv2.addWeighted(roi,1,logo,0.3,0)
+>>> store all these in result variable and later will apply it to the image.
+>>> Lastly will add the to the output folder.
+// here the images are open but the the input and output images should in folders.
+
 
